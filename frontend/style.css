@@ -1,0 +1,250 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  background-color: rgb(212, 171, 178);
+}
+
+.pozadina{
+    background-image:url('slika.jpg');
+    background-color:#cccc;
+   
+  
+    min-width: 100%;
+    min-height: 100%;
+    
+    height: fit-content;
+    
+}
+.GlavniKontejner{
+    margin: 20px;
+    order: 3;
+    background: rgba(139, 134, 125, 0.9);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    border-radius: 15px;
+    padding :10px;
+   
+   
+}
+.izborSalona{
+    
+    font-style: oblique;
+    display: flex;
+  
+    text-align: center;
+    font-size: 50px;
+    text-transform:uppercase;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    flex-grow: 0 1 auto;
+    align-self:center;
+    margin: 20px;
+  
+}
+
+
+table{
+    
+  
+    display: table;
+    flex-grow: 1;
+    margin-top: 5px;
+
+}
+
+.labRadnik,.tretmani{
+    align-self: center;
+    flex-grow: 1;
+    font-size: large;
+    color:black;
+    font-style:inherit;
+}
+
+.tre{
+    border-style: solid;
+    border-color:rgb(180, 180, 180);
+    border-width:0.3px;    
+  
+   
+    text-align: center;
+    flex-grow: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+
+}
+.tdRadnici,.trcena,.tdTretman,.tdmesta,.tdrRadnici{
+    border-style: solid;
+    border-color:rgb(180, 180, 180);
+    border-width:0.3px;    
+    width: 150px;
+    text-align: center;
+ 
+    flex-grow: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    border:2px  solid;
+}
+
+.lbnaziv{
+    font-size: large;
+    display: flex;
+    justify-content:space-between;
+ 
+  margin-top: 18px;
+    margin-left:25px;
+    margin-right: 25px;
+
+}
+
+.glavno{
+    border-radius: 20px;
+    padding :10px;
+    background-color:rgb(233, 233, 233); 
+    margin-top:5cm;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn{
+    height: 1.5cm;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 15px;
+    background-color:rgb(84, 4, 138);
+    text-decoration-color: white;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.lbNaziv,.lbGrad{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+.inputNaziv,.inputGrad,.cena{
+    font-size: 17px;
+    display: flex;
+    min-width: 100px;
+    font-size: large;
+    text-align: center;
+}
+
+.naziv,.grad{
+    font-size: large;
+    display: flex;
+    justify-content:space-between;
+    flex-grow: 1;
+    border-bottom: dotted darkblue 0.3px;
+    margin-left:25px;
+    margin-right: 25px;
+}
+
+
+.labNaziv,.labGrad{
+    margin-right:15px;
+}
+.DIVJMBG,.divIme,.divPrezime,.divPol,.divGodine,.divPlata,.divNaziv,.divCena,.divVreme,.div{
+    font-size: 17px;
+    display: flex;
+    justify-content:space-between;
+    flex-grow: 1;
+    margin-left:25px;
+    margin-right: 25px;
+}
+
+tr{
+    border: solid rgb(180, 180, 180) 2px;
+    flex-grow: 1;
+    display: flex;
+}
+th{
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    flex-direction: row;
+    width: 50px;
+    
+
+}
+
+.prikaz{
+    border-radius: 20px;
+    padding :10px;
+    
+    height: 10%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.edukacijaZaglavlje{
+
+    font-size: 17px;
+    display: flex;
+    justify-content:space-between;
+    flex-grow: 1;
+    margin-left:25px;
+    margin-right: 25px;
+}
+.edukacijaForma{
+    display: flex;
+    flex-grow: 1;
+    padding: 5px;
+  
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1cm 1cm 1cm 1cm;
+}
+
+.comboBox{
+    width: 10%;
+    flex-grow: 1;
+    height: 1cm;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: large;
+    margin: 15px;
+}
+
+tbody{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.cena{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.TabelaPodaci{
+    display: table;
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left:15px; 
+}
+
+.tabRadnici.tabTretmani{
+    margin: 1cm 1cm 1cm 1cm;
+}

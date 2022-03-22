@@ -1,0 +1,10 @@
+Krerana su 2 salona. Nakon odabira, vidimo informacije o salonu, radnike, tretmane i edukacije.
+Moguce je izmeniti ime i grad salona klikom na dugme Izmeni. Klikom na dugme sacuvaj novi podaci se cuvaju,
+a klikom na otkazi izmena se otkazuje. Takodje, moguce je obrisati salon. U ovoj kontroli se nalaze dugme za dodavanje radnika 
+i dugme za dodavanje tretmana. Obezbedjeno je da jedanog radnika mozemo da zaposlimo u samo jednom salonu.
+Sa desne strane imamo prikaz radnika. Imamo informacije o svakom radniku.
+Radnika koji ne drzi nijednu edukaciju je moguce otpustiti. 
+Tabela ispod je tabela tretmana. Imamo informacije o tretmanu(cena,vreme trajanja i naziv). Tretmanu je moguce 
+promeniti cenu.
+Poslednji deo predstavlja pregled edukacija po danima. Tabela sa nazivom edukacije, slobodnim mestima,
+vremenu edukacije i radnikom koji drzi edukaciju se prikazuje odabirom odredjenog dana.

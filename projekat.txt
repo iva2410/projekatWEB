@@ -1,0 +1,53 @@
+INSERT INTO Saloni VALUES ('Beautyland','Nis');
+INSERT INTO Saloni VALUES ('Beauty Centar','Novi Sad');
+
+INSERT INTO Radnici VALUES('Natalija','Petrovic','Zenski',5,35000,3,2405991734696);
+INSERT INTO Radnici VALUES('Ivana','Lazic','Zenski',2,37000,3,7536991234793);
+INSERT INTO Radnici VALUES('Nikola','Nikolic','Muski',7,40000,3,5796357412896);
+INSERT INTO Radnici VALUES('Ana','Simic','Zenski',3,32000,4,2506934852147);
+INSERT INTO Radnici VALUES('Marko','Dencic','Muski',3,42000,4,0208996353829);
+INSERT INTO Radnici VALUES('Sanja','Markovic','Zenski',7,45000,4,6580374589461);
+INSERT INTO Radnici VALUES('Mia','Savic','Zenski',7,42000,3,3217996353829);
+INSERT INTO Radnici VALUES('Ana','Markovic','Zenski',7,45000,3,7563894589461);
+INSERT INTO Radnici VALUES('Marko','Dencic','Muski',3,42000,3,0208996353829);
+
+INSERT INTO Tretmani VALUES('Sisanje',45);
+INSERT INTO Tretmani VALUES ('Farbanje',70);
+INSERT INTO Tretmani VALUES ('Pramenovi',180);
+INSERT INTO Tretmani VALUES ('Pedikir',45);
+INSERT INTO Tretmani VALUES ('Gel lak',60);
+INSERT INTO Tretmani VALUES ('Izlivanje',75);
+
+INSERT INTO SaloniTretmani VALUES (3,5,1000);
+INSERT INTO SaloniTretmani VALUES (4,5,1200);
+INSERT INTO SaloniTretmani VALUES (3,6,2000);
+INSERT INTO SaloniTretmani VALUES (4,5,1700);
+INSERT INTO SaloniTretmani VALUES (3,7,3000);
+INSERT INTO SaloniTretmani VALUES (3,27,1200);
+INSERT INTO SaloniTretmani VALUES (3,28,1200);
+INSERT INTO SaloniTretmani VALUES (4,27,1000);
+INSERT INTO SaloniTretmani VALUES (4,28,1400);
+INSERT INTO SaloniTretmani VALUES (3,29,1500);
+INSERT INTO SaloniTretmani VALUES (3,30,1400);
+INSERT INTO SaloniTretmani VALUES (4,30,1400);
+
+INSERT INTO Edukacije VALUES ('Sminker',5,3,1045);
+INSERT INTO Edukacije VALUES ('Sminker',2,4,1048);
+INSERT INTO Edukacije VALUES ('Kozmeticar',10,3,1046);
+INSERT INTO Edukacije VALUES ('Kozmeticar',5,4,1049);
+INSERT INTO Edukacije VALUES ('Nadogradnja trepavica',5,3,1047);
+INSERT INTO Edukacije VALUES ('Nadogradnja trepavica',5,4,1050);
+INSERT INTO Edukacije VALUES ('Brow lift i Lash lift',2,3,1052);
+
+INSERT INTO EdukacijaTermini VALUES (9,1,'10:00');
+INSERT INTO EdukacijaTermini VALUES (9,3,'10:00');
+INSERT INTO EdukacijaTermini VALUES (9,2,'11:00');
+INSERT INTO EdukacijaTermini VALUES (10,3,'12:00');
+INSERT INTO EdukacijaTermini VALUES (10,1,'13:00');
+INSERT INTO EdukacijaTermini VALUES (11,1,'10:00');
+INSERT INTO EdukacijaTermini VALUES (11,2,'12:00');
+INSERT INTO EdukacijaTermini VALUES (11,5,'10:00');
+INSERT INTO EdukacijaTermini VALUES (12,5,'10:00');
+INSERT INTO EdukacijaTermini VALUES (12,3,'16:00');
+INSERT INTO EdukacijaTermini VALUES (13,3,'10:00');
+
